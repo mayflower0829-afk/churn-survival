@@ -1,0 +1,32 @@
+{
+  "n_customers": 4292,
+  "n_churned": 2671,
+  "n_censored": 1621,
+  "churn_gap_days": 60,
+  "logrank_high_vs_low_value": {
+    "首月高价值": {
+      "chi2": 59.92,
+      "p": 9.85e-15
+    },
+    "首月低价值": {
+      "chi2": 59.92,
+      "p": 9.85e-15
+    }
+  },
+  "km": {
+    "surv_m3": 58.5,
+    "surv_m6": 47.6,
+    "surv_m9": 33.6
+  },
+  "discrete_risk": {
+    "auc_oos": 0.903,
+    "odds_ratios": {
+      "tenure": 1.225,
+      "recent_active": 33.098,
+      "rev_log": 0.156,
+      "seg_hi": 0.739
+    },
+    "n_person_months": 24184,
+    "event_rate": 11.04
+  }
+}
