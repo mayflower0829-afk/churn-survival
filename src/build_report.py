@@ -121,7 +121,7 @@ footer {{ text-align:center; font-size:12px; color:var(--muted); padding:26px 0 
   <h2>5 · 局限与改进方向</h2>
   <div class="card">
     <ul>
-      <li>流失阈值（{M['churn_gap_days']} 天）是业务约定而非统计估计；可用购区间分布（如帕累to/NBD）反推，或对阈值做敏感性分析。</li>
+      <li>流失阈值（{M['churn_gap_days']} 天）是业务约定而非统计估计；可用购区间分布（如帕累托/NBD）反推，或对阈值做敏感性分析。</li>
       <li>离散时间 logistic 是 Cox 比例风险模型的分组近似；基线风险函数未随时间灵活化，可加入时间哑变量放松比例风险假设。</li>
       <li>删失客户的"最后活跃时点"之后即停止贡献风险信息；更精细的实现应把删失月也纳入风险集至其退出时点。</li>
       <li>可扩展：与 Pareto/NBD、BG/NBD 概率模型对比 CLV 预测；加入购物篮多样性等行为特征。</li>
