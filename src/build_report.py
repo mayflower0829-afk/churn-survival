@@ -42,6 +42,11 @@ html = f"""<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>客户流失分析与生存模型 · Kaplan-Meier + 离散时间风险模型</title>
+  <meta property="og:title" content="客户流失分析与生存模型 · Kaplan-Meier + 离散时间风险模型">
+  <meta property="og:description" content="">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://cloud1-d4gsgj705497df85d-1501559031.tcloudbaseapp.com/churn/">
+
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%23B4540A'/><text x='50' y='68' font-size='44' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='bold'>生</text></svg>">
 <style>
 :root {{ --bg:#F8F6F3; --card:#fff; --text:#26211B; --muted:#8A8378; --border:#EAE5DD; --accent:#B4540A; }}
